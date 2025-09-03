@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "CPR review",
+            "tasks": [
+                {
+                    "id": 1,
+                    "text": "add data",
+                    "completed": false,
+                    "due_date": "2025-09-16"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Traffic review",
+            "tasks": []
+        }
+    ]
+}
