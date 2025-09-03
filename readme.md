@@ -1,5 +1,26 @@
-Compliance Documentation and Task TrackerA lightweight, single-user web application built with Python and Flask for managing compliance-related tasks and documentation. This app provides a clean, responsive interface to create projects, add tasks with due dates, and track progress.FeaturesProject Management: Create and delete compliance projects.Task Tracking: Add, edit, and delete tasks within each project.Due Dates: Assign a due date to each task to help with prioritization and deadlines.Progress Dashboard: A visual progress bar on each project shows the completion status at a glance.Responsive Design: The app is fully responsive and looks great on both desktop and mobile devices.Theme Toggle: Switch between light and dark modes for a better viewing experience.PrerequisitesBefore running the application, you need to have Python and the Flask library installed on your system.How to Run the ApplicationClone the Repository: If you're using Git, clone this repository to your local machine.git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-Navigate to the Project Directory:cd your-repo-name
-Install Flask: Install the required library using pip, Python's package installer.pip install Flask
-Run the App: Execute the Python script from your terminal.python app.py
-Access the App: Open your web browser and navigate to the address provided in your terminal (usually http://127.0.0.1:5000).File Structureapp.py: The main Python Flask application that handles the web server and logic.data.json: A simple JSON file that stores all of your project and task data.
+# 📂 Compliance Documentation and Task Tracker
+
+The **Compliance Documentation and Task Tracker** is a lightweight, single-user web application built with **Python** and **Flask** for managing compliance-related tasks and documentation.  
+
+It provides a clean, responsive interface to **create projects, add tasks with due dates, and track progress** — helping you stay organized and compliant.
+
+---
+
+## ✨ Features
+- 📁 **Project Management** – Create and delete compliance projects.  
+- ✅ **Task Tracking** – Add, edit, and delete tasks within each project.  
+- ⏰ **Due Dates** – Assign deadlines to keep priorities clear.  
+- 📊 **Progress Dashboard** – Visual progress bar shows completion status at a glance.  
+- 📱 **Responsive Design** – Looks great on desktop and mobile devices.  
+- 🌗 **Theme Toggle** – Switch between light and dark modes.  
+
+---
+
+## 📋 Prerequisites
+Make sure you have the following installed on your system:
+- **Python** (v3.8 or higher recommended)  
+- **Flask** web framework  
+
+Install Flask using:
+```bash
+pip install Flask
